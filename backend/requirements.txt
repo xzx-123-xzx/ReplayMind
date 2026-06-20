@@ -1,0 +1,57 @@
+# FastAPI 框架
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# 数据库
+sqlalchemy>=2.0.23
+alembic>=1.12.0
+asyncpg>=0.29.0
+psycopg2-binary>=2.9.9
+
+# 缓存和消息队列
+redis>=5.0.1
+celery>=5.3.4
+hiredis>=2.2.3
+
+# 向量数据库
+pymilvus>=2.3.0
+
+# 对象存储
+minio>=7.2.0
+
+# LangChain 生态
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-ollama>=0.1.0
+langchain-openai>=0.1.0
+
+# AI 模型
+openai-whisper>=20231117
+torch>=2.1.0
+transformers>=4.35.0
+sentence-transformers>=2.2.2
+
+# 图像处理
+pillow>=10.1.0
+opencv-python>=4.8.0
+
+# 视频处理
+ffmpeg-python>=0.2.0
+
+# 工具库
+python-dotenv>=1.0.0
+python-multipart>=0.0.6
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# 日志和监控
+python-json-logger>=2.0.7
+
+# 开发工具
+black>=23.11.0
+ruff>=0.1.0
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
